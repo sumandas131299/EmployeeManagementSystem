@@ -2,6 +2,14 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/D:/PROGRAMMING/EmployeeManagementSystem/EmployeeManagementSystem/src/EmployeeManagementSystem/Login.java</file>
+            <file>file:/D:/PROGRAMMING/EmployeeManagementSystem/EmployeeManagementSystem/src/Admin/AttendanceUpdate.java</file>
+            <file>file:/D:/PROGRAMMING/EmployeeManagementSystem/EmployeeManagementSystem/src/Employee/Attendence.java</file>
+            <file>file:/D:/PROGRAMMING/EmployeeManagementSystem/EmployeeManagementSystem/src/Employee/UpdateProfile.java</file>
+            <file>file:/D:/PROGRAMMING/EmployeeManagementSystem/EmployeeManagementSystem/src/Admin/AddAttendance.java</file>
+            <file>file:/D:/PROGRAMMING/EmployeeManagementSystem/EmployeeManagementSystem/src/EmployeeManagementSystem/Employee.java</file>
+            <file>file:/D:/PROGRAMMING/EmployeeManagementSystem/EmployeeManagementSystem/src/EmployeeManagementSystem/Admin.java</file>
+        </group>
     </open-files>
 </project-private>

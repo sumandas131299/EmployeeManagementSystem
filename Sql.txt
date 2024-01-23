@@ -1,0 +1,14 @@
+show databases;
+create database employeeManagementSystem;
+use employeeManagementSystem;
+
+create table Login(id varchar(5) primary key not null,username varchar(50),passward varchar(50));
+insert into login(id,username,passward) values(1,'admin','admin');
+
+create table employee(name varchar(100),age varchar(3),address varchar(200),email varchar(100),job varchar(100),empid varchar(5) primary key not null,fathername varchar(100),phno varchar(60),education varchar(50),dob varchar(50),adhar varchar(12));
+
+
+create table Leaves( id varchar(5) primary key , name varchar(100) , startdate varchar(100) , enddate varchar(100) , reason varchar(250) , approval varchar(20));
+
+
+create table attendance(id varchar(5) primary key,month varchar(20),present int , total int , time varchar(100) );
