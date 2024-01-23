@@ -108,14 +108,16 @@ public class AddEmployee extends javax.swing.JFrame {
         jLabel11.setText("Phone No :");
         getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 160, 114, -1));
 
+        jToggleButton1.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
         jToggleButton1.setText("Submit");
         jToggleButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jToggleButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jToggleButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 440, 81, -1));
+        getContentPane().add(jToggleButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 440, 130, -1));
 
+        jToggleButton2.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
         jToggleButton2.setText("Cancel");
         jToggleButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -170,9 +172,9 @@ public class AddEmployee extends javax.swing.JFrame {
         jTextField11.setText(" ");
         getContentPane().add(jTextField11, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 350, 140, -1));
 
-        jLabel13.setIcon(new javax.swing.ImageIcon("D:\\PROGRAMMING\\EmployeeManagementSystem\\EmployeeManagementSystem\\image\\Open-office.-Zastolskiy-Victor.-collaborative-office.com_.jpg")); // NOI18N
+        jLabel13.setIcon(new javax.swing.ImageIcon("D:\\PROGRAMMING\\EmployeeManagementSystem\\EmployeeManagementSystem\\image\\re.com_.jpg")); // NOI18N
         jLabel13.setText("jLabel13");
-        getContentPane().add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(-60, -60, 1360, 630));
+        getContentPane().add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(-420, -80, 1360, 630));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents

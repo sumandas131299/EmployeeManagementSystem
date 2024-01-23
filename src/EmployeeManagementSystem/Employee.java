@@ -32,6 +32,8 @@ public class Employee extends javax.swing.JFrame {
         Profile = new javax.swing.JButton();
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
+        jButton3 = new javax.swing.JButton();
+        jButton4 = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -44,7 +46,7 @@ public class Employee extends javax.swing.JFrame {
                 ProfileActionPerformed(evt);
             }
         });
-        getContentPane().add(Profile, new org.netbeans.lib.awtextra.AbsoluteConstraints(62, 29, 133, 45));
+        getContentPane().add(Profile, new org.netbeans.lib.awtextra.AbsoluteConstraints(62, 29, 150, 60));
 
         jButton1.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
         jButton1.setText("Update Profile");
@@ -53,15 +55,34 @@ public class Employee extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 110, 190, 45));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 110, 190, 60));
 
+        jButton2.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
         jButton2.setText("Exit");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 340, 160, 60));
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 340, 130, 50));
+
+        jButton3.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
+        jButton3.setText("Ask for Leave");
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 210, 190, 60));
+
+        jButton4.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
+        jButton4.setText("Attendence");
+        jButton4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton4ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 310, 190, 60));
 
         jLabel1.setIcon(new javax.swing.ImageIcon("D:\\PROGRAMMING\\EmployeeManagementSystem\\EmployeeManagementSystem\\image\\jll-5-incentives-to-entice-employees-social-1200x628.jpg")); // NOI18N
         jLabel1.setText("jLabel1");
@@ -98,6 +119,26 @@ public class Employee extends javax.swing.JFrame {
         frame.setVisible(true);
         frame.setLocationRelativeTo(null);
     }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        // TODO add your handling code here:
+        
+        setVisible(false);
+        Leave frame = new Leave();
+        frame.setVisible(true);
+        frame.setLocationRelativeTo(null);
+        
+    }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+        // TODO add your handling code here:
+        
+        setVisible(false);
+        Attendence frame = new Attendence();
+        frame.setVisible(true);
+        frame.setLocationRelativeTo(null);
+        
+    }//GEN-LAST:event_jButton4ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -138,6 +179,8 @@ public class Employee extends javax.swing.JFrame {
     private javax.swing.JButton Profile;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton4;
     private javax.swing.JLabel jLabel1;
     // End of variables declaration//GEN-END:variables
 }
